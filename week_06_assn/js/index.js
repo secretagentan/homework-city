@@ -13,6 +13,7 @@ for (index = 0; index < 5; ++index) {
 
 // USE .APPEND() METHOD TO ADD NEW <OPTION> ELEMENT TO THE <SELECT> ELEMENT [DROPDOWN MENU]
 	$("select").append("<option>"+element+"</option>");
+	// Q: Console is detecting error: element not defined. This works when I try it with the forEach method but not for the for Loop. What am I missing? 
 }
 
 // USING .CHANGE METHOD, DETECT WHEN USER MAKES A SELECTION
